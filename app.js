@@ -23,7 +23,7 @@ app.use((req, res, next) => {
 app.get('/', (req, res) => {
   const posts = [
     {
-      id: "2de2422",
+      id: "omg",
       title: "title 1",
       content: "Hello this is the content 1",
     },
