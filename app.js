@@ -13,7 +13,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use("/api/posts", (req, res) => {
+app.get("/", (req, res) => {
   const posts = [
     {
       id: "2de2422",
