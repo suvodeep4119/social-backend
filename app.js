@@ -31,7 +31,7 @@ app.get('/', (req, res) => {
       content: "Hello this is the content 1",
     },
   ];
-  res.json({
+  res.status(200).send({
     message: "Posts fetched successfully",
     posts: posts,
   });
